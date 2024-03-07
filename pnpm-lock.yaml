@@ -29,6 +29,9 @@ dependencies:
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
+  validate-color:
+    specifier: ^2.2.4
+    version: 2.2.4
 
 packages:
 
@@ -3947,6 +3950,10 @@ packages:
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+    dev: false
+
+  /validate-color@2.2.4:
+    resolution: {integrity: sha512-Znolz+b6CwW6eBXYld7MFM3O7funcdyRfjKC/X9hqYV/0VcC5LB/L45mff7m3dIn9wdGdNOAQ/fybNuD5P/HDw==}
     dev: false
 
   /vfile-location@5.0.2:
