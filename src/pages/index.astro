@@ -1,8 +1,15 @@
 ---
-import Layout from '../layouts/default.astro'
-import Generator from '../components/generator.svelte'
+import Layout from "../layouts/default.astro";
+import Generator from "../components/generator.svelte";
 ---
 
 <Layout>
-	<Generator client:load />
+	<div class="flex-col">
+		<h1
+			class="text-center m-2 text-2xl font-sans font-bold text-emerald-800"
+		>
+			Simple QR code generator
+		</h1>
+		<Generator client:load />
+	</div>
 </Layout>

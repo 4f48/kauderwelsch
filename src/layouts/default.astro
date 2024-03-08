@@ -1,5 +1,5 @@
 ---
-// use this for layout props later
+import Header from "../components/Header.astro";
 ---
 
 <!DOCTYPE html>
@@ -13,6 +13,7 @@
 		<title>Astro</title>
     </head>
     <body class="flex justify-center items-center h-[100%] bg-emerald-100">
+        <Header />
         <slot />
     </body>
 </html>
