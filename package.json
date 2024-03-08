@@ -18,6 +18,7 @@
     "svelte": "^4.2.11",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3",
+    "uuid": "^9.0.1",
     "validate-color": "^2.2.4"
   }
 }
