@@ -1,7 +1,7 @@
 <script>
 	import { QRCodeSVG } from "@akamfoad/qrcode";
 	import validateColor from "validate-color";
-	import { v1 } from 'uuid';
+	import { v1 } from "uuid";
 
 	let qrSVG;
 	let data = "Example QR code";
@@ -22,13 +22,13 @@
 		});
 
 		fileName = v1();
-	};
+	}
 
 	function download(qrSVG) {
 		const blob = new Blob([qrSVG], { type: "image/svg+xml" });
 		const url = URL.createObjectURL(blob);
 		return url;
-	};
+	}
 
 	genQR();
 </script>

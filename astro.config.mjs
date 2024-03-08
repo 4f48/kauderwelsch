@@ -10,5 +10,6 @@ export default defineConfig({
   integrations: [svelte(), tailwind(), sitemap()],
   site: 'https://kauderwelsch.vercel.app',
   output: "server",
-  adapter: vercel()
+  adapter: vercel(),
+  prefetch: true,
 });
