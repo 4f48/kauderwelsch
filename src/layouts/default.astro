@@ -1,12 +1,7 @@
 ---
 import Header from "../components/Header.astro";
+import SpeedInsights from "@vercel/speed-insights/astro";
 ---
-
-<script type="text/partytown">
-    import { injectSpeedInsights } from "@vercel/speed-insights";
- 
-    injectSpeedInsights();
-</script>
 
 <!doctype html>
 <html lang="en" class="h-[100%]">
@@ -19,6 +14,7 @@ import Header from "../components/Header.astro";
         <title>Astro</title>
     </head>
     <body class="flex justify-center items-center h-[100%] bg-emerald-100">
+        <SpeedInsights />
         <Header />
         <slot />
     </body>
